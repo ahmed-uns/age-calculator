@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+#outer {
+    position: relative;
+    margin: auto;
+    top: 4em;
+    width: 50%;
+    height: max-content;
+    max-width: 80%;
+    min-width: fit-content;
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5% 5% 30% 5%;
+}
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    
+    
+}
+#arrow {
+    text-decoration: none;
+}
+output ,.outunit{
+    width: 80%;
+    font-size: 400%;
+    color: blueviolet;
+    display: inline-block;
+    font-weight: 1000;
+    font-style: italic;
+    box-sizing: border-box;
+    max-width: 800px;
+    min-width: fit-content;
+    text-align: justify;
+}
+.outunit {
+    color: black;
+}
+input[type=date] {
+    height: 50px;
+    border-width: 0 0 1px 4px;
+    border-color: red red black blueviolet;
+    border-radius: 4%;
+    font-family: monospace;
+    font-style: italic;
+}
+.container {
+    width: 100%;
+}
